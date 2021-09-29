@@ -1,0 +1,6 @@
+#!/usr/bin/env zsh
+
+make
+git add .
+git commit -m "More tests."
+git push -u origin master

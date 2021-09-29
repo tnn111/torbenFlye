@@ -66,3 +66,4 @@ class torbenFlyeTest(unittest.TestCase):
         ret = self.serviceImpl.run_torbenFlye(self.ctx, {'workspace_name': self.wsName,
                                                              'parameter_1': 'Hello World!'})
         print(ret)
+        print("They suck. Badly.")
