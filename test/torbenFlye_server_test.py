@@ -65,3 +65,4 @@ class torbenFlyeTest(unittest.TestCase):
         # self.assertEqual(ret[...], ...) or other unittest methods
         ret = self.serviceImpl.run_torbenFlye(self.ctx, {'workspace_name': self.wsName,
                                                              'parameter_1': 'Hello World!'})
+        print(ret)
