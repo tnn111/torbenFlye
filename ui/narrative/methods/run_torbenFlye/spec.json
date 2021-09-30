@@ -275,7 +275,7 @@
                     "target_property": "min-overlap"
                 },
                 {
-                    "input_parameter": "asm-coveerage",
+                    "input_parameter": "asm-coverage",
                     "target_property": "asm-coverage"
                 },
                 {
