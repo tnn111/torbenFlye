@@ -79,7 +79,70 @@ parameters :
         short-hint:
             Genome size
         long-hint:
-            Genome size    
+            Genome size 
+    out-dir:
+        ui-name:
+            Output directory
+        short-hint:
+            Output directory
+        long-hint: 
+            Output directory. This may not be useful for KBase apps
+    iterations:
+        ui-name:
+            Number of polishing iterations
+        short-hint:
+            Number of polishing iterations
+        long-hint:
+            Number of polishing iterations.
+    min-overlap:
+        ui-name:
+            Minimum required overlap between reads
+        short-hint:
+            Minimum required overlap between reads
+        long-hint:
+            Minimum required overlap between reads. It cannot be set lower than 1,000
+    asm-coverage:
+        ui-name:
+            Assembly coverage
+        short-hint:
+            Assembly coverage
+        long-hint:
+            Assembly coverage. This is mostly used to get lower coverage and lower memory use on an initial assembly
+    read-error:
+        ui-name:
+            Read error
+        short-hint:
+            Read error
+        long-hint:
+            Read error rate estimate. This can be used to adjust internal parameter settings
+    meta:
+        ui-name:
+            Metagenome
+        short-hint:
+            Metagenome
+        long-hint:
+            Metagenome flag. If set, Flye will treat this as a metagenome.
+    keep-haplotypes:
+        ui-name:
+            Keep haplotypes
+        short-hint:
+            Keep haplotypes
+        long-hint:
+            Haplotype flag. If set, haplotypes will be retained. This is for eukaryotes
+    scaffold:
+        ui-name:
+            Scaffold
+        short-hint:
+            Enable scaffolding using graph
+        long-hint:
+            Enable scaffolding using graph
+    polish-target:
+        ui-name:
+            Polish the target
+        short-hint:
+            Polish the target
+        long-hint:
+            Polish the target using the reads given
 
 description : |
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar efficitur felis, quis tincidunt sem congue at. Vivamus ornare feugiat faucibus. Fusce tincidunt mattis nunc, nec varius purus convallis quis. Nulla facilisi. In at magna dolor. Suspendisse sit amet felis at arcu auctor dapibus vitae pharetra dui. Nam semper mi quis tortor fermentum mollis. Donec a arcu pharetra, rutrum dolor vitae, rutrum mauris. Donec ornare fringilla sagittis. Nam laoreet est in elementum malesuada. Vestibulum id mi eget urna hendrerit feugiat. Donec et ultrices nulla. Phasellus diam eros, dapibus at tempus nec, semper vel ante.</p>
