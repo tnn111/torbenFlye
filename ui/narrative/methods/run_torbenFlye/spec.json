@@ -20,6 +20,171 @@
             "text_options": {
                 "valid_ws_types": [ ]
             }
+        },
+        {
+            "id": "pacbio-raw",
+            "optional": true,
+            "advanced": false,
+            "allow_multiple": true,
+            "default_values": [ "" ],
+            "field_type": "text",
+            "text_options": {
+                "valid_ws_types": [ ]
+            }
+        },
+        {
+            "id": "pacbio-corr",
+            "optional": true,
+            "advanced": false,
+            "allow_multiple": true,
+            "default_values": [ "" ],
+            "field_type": "text",
+            "text_options": {
+                "valid_ws_types": [ ]
+            }
+        },
+        {
+            "id": "pacbio-hifi",
+            "optional": true,
+            "advanced": false,
+            "allow_multiple": true,
+            "default_values": [ "" ],
+            "field_type": "text",
+            "text_options": {
+                "valid_ws_types": [ ]
+            }
+        },
+        {
+            "id": "nano-raw",
+            "optional": true,
+            "advanced": false,
+            "allow_multiple": true,
+            "default_values": [ "" ],
+            "field_type": "text",
+            "text_options": {
+                "valid_ws_types": [ ]
+            }
+        },
+        {
+            "id": "nano-corr",
+            "optional": true,
+            "advanced": false,
+            "allow_multiple": true,
+            "default_values": [ "" ],
+            "field_type": "text",
+            "text_options": {
+                "valid_ws_types": [ ]
+            }
+        },
+        {
+            "id": "nano-hq",
+            "optional": true,
+            "advanced": false,
+            "allow_multiple": true,
+            "default_values": [ "" ],
+            "field_type": "text",
+            "text_options": {
+                "valid_ws_types": [ ]
+            }
+        },
+        {
+            "id": "genome-size",
+            "optional": true,
+            "advanced": false,
+            "allow_multiple": false,
+            "default_values": [ "" ],
+            "field_type": "text",
+            "text_options": {
+                "valid_ws_types": [ ]
+            }
+        },
+        {
+            "id": "out-dir",
+            "optional": true,
+            "advanced": false,
+            "allow_multiple": false,
+            "default_values": [ "" ],
+            "field_type": "text",
+            "text_options": {
+                "valid_ws_types": [ ]
+            }
+        },
+        {
+            "id": "iterations",
+            "optional": true,
+            "advanced": false,
+            "allow_multiple": false,
+            "default_values": [ "" ],
+            "field_type": "text",
+            "text_options": {
+                "valid_ws_types": [ ]
+            }
+        },
+        {
+            "id": "min-overlap",
+            "optional": true,
+            "advanced": false,
+            "allow_multiple": false,
+            "default_values": [ "" ],
+            "field_type": "text",
+            "text_options": {
+                "valid_ws_types": [ ]
+            }
+        },
+        {
+            "id": "asm-coverage",
+            "optional": true,
+            "advanced": false,
+            "allow_multiple": false,
+            "default_values": [ "" ],
+            "field_type": "text",
+            "text_options": {
+                "valid_ws_types": [ ]
+            }
+        },
+        {
+            "id": "read-error",
+            "optional": true,
+            "advanced": true,
+            "allow_multiple": false,
+            "default_values": [ "" ],
+            "field_type": "text",
+            "text_options": {
+                "valid_ws_types": [ ]
+            }
+        },
+        {
+            "id": "meta",
+            "optional": true,
+            "advanced": false,
+            "allow_multiple": false,
+            "default_values": [ "" ],
+            "field_type": "text",
+            "text_options": {
+                "valid_ws_types": [ ]
+            }
+        },
+        {
+            "id": "keep-haplotypes",
+            "optional": true,
+            "advanced": true,
+            "allow_multiple": false,
+            "default_values": [ "" ],
+            "field_type": "text",
+            "text_options": {
+                "valid_ws_types": [ ]
+            }
+        },
+        {
+            "id": "scaffold",
+            "optional": true,
+            "advanced": false,
+            "allow_multiple": false,
+            "default_values": [ "" ],
+            "field_type": "text",
+            "text_options": {
+                "valid_ws_types": [ ]
+            }
         }
     ],
     "behavior": {
