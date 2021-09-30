@@ -223,12 +223,81 @@
                 {
                     "narrative_system_variable": "workspace",
                     "target_property": "workspace_name"
-                },{
+                },
+                {
                     "narrative_system_variable": "workspace_id",
                     "target_property": "workspace_id"
-                },{
-                    "input_parameter": "parameter_1",
-                    "target_property": "parameter_1"
+                },
+                {
+                    "input_parameter": "pacbio-raw",
+                    "target_property": "pacbio-raw",
+                    "target_type_transform": "resolved-ref"
+                },
+                {
+                    "input_parameter": "pacbio-corr",
+                    "target_property": "pacbio-corr",
+                    "target_type_transform": "resolved-ref"
+                },
+                {
+                    "input_parameter": "pacbio-hifi",
+                    "target_property": "pacbio-hifi",
+                    "target_type_transform": "resolved-ref"
+                },
+                {
+                    "input_parameter": "nano-raw",
+                    "target_property": "nano-raw",
+                    "target_type_transform": "resolved-ref"
+                },
+                {
+                    "input_parameter": "nano-corr",
+                    "target_property": "nano-corr",
+                    "target_type_transform": "resolved-ref"
+                },
+                {
+                    "input_parameter": "nano-hq",
+                    "target_property": "nano-hq",
+                    "target_type_transform": "resolved-ref"
+                },
+                {
+                    "input_parameter": "genome-size",
+                    "target_property": "genome-size"
+                },
+                {
+                    "input_parameter": "out-dir",
+                    "target_property": "out-dir"
+                },
+                {
+                    "input_parameter": "iterations",
+                    "target_property": "iterations"
+                },
+                {
+                    "input_parameter": "min-overlap",
+                    "target_property": "min-overlap"
+                },
+                {
+                    "input_parameter": "asm-coveerage",
+                    "target_property": "asm-coverage"
+                },
+                {
+                    "input_parameter": "read-error",
+                    "target_property": "read-error"
+                },
+                {
+                    "input_parameter": "meta",
+                    "target_property": "meta"
+                },
+                {
+                    "input_parameter": "keep-haplotypes",
+                    "target_property": "keep-haplotypes"
+                },
+                {
+                    "input_parameter": "scaffold",
+                    "target_property": "scaffold"
+                },
+                {
+                    "input_parameter": "polish-target",
+                    "target_property": "polish-target",
+                    "target_type_transform": "resolved-ref"
                 }
             ],
             "output_mapping": [
