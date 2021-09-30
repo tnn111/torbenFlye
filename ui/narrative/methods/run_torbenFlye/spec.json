@@ -95,7 +95,8 @@
             "default_values": [ "" ],
             "field_type": "text",
             "text_options": {
-                "valid_ws_types": [ ]
+                "valid_ws_types": [ ],
+                "validate_as" : "float"
             }
         },
         {
@@ -106,7 +107,8 @@
             "default_values": [ "" ],
             "field_type": "text",
             "text_options": {
-                "valid_ws_types": [ ]
+                "valid_ws_types": [ ],
+                "is_output_name" : true
             }
         },
         {
@@ -117,7 +119,10 @@
             "default_values": [ "" ],
             "field_type": "text",
             "text_options": {
-                "valid_ws_types": [ ]
+                "valid_ws_types": [ ],
+                "validate_as" : "int",
+                "min_int" : 1,
+                "max_int" : 10
             }
         },
         {
@@ -128,7 +133,9 @@
             "default_values": [ "" ],
             "field_type": "text",
             "text_options": {
-                "valid_ws_types": [ ]
+                "valid_ws_types": [ ],
+                "validate_as" : "int",
+                "min_int" : 1000
             }
         },
         {
@@ -139,7 +146,9 @@
             "default_values": [ "" ],
             "field_type": "text",
             "text_options": {
-                "valid_ws_types": [ ]
+                "valid_ws_types": [ ],
+                "validate_as" : "int",
+                "min_int" : 1
             }
         },
         {
@@ -150,7 +159,10 @@
             "default_values": [ "" ],
             "field_type": "text",
             "text_options": {
-                "valid_ws_types": [ ]
+                "valid_ws_types": [ ],
+                "validate_as" : "float",
+                "min_float" : 0.0,
+                "max_float" : 1.0
             }
         },
         {
@@ -158,10 +170,11 @@
             "optional": true,
             "advanced": false,
             "allow_multiple": false,
-            "default_values": [ "" ],
-            "field_type": "text",
-            "text_options": {
-                "valid_ws_types": [ ]
+            "default_values": [ "false" ],
+            "field_type": "checkbox",
+            "checkbox_options": {
+                "unchecked_value" : false,
+                "checked_value" : true
             }
         },
         {
@@ -169,14 +182,27 @@
             "optional": true,
             "advanced": true,
             "allow_multiple": false,
-            "default_values": [ "" ],
-            "field_type": "text",
-            "text_options": {
-                "valid_ws_types": [ ]
+            "default_values": [ "false" ],
+            "field_type": "checkbox",
+            "checkbox_options": {
+                "unchecked_value" : false,
+                "checked_value" : true
             }
         },
         {
             "id": "scaffold",
+            "optional": true,
+            "advanced": false,
+            "allow_multiple": false,
+            "default_values": [ "" ],
+            "field_type": "checkbox",
+            "checkbox_options": {
+                "unchecked_value" : false,
+                "checked_value" : true
+            }
+        },
+        {
+            "id": "polish-target",
             "optional": true,
             "advanced": false,
             "allow_multiple": false,
@@ -186,6 +212,7 @@
                 "valid_ws_types": [ ]
             }
         }
+
     ],
     "behavior": {
         "service-mapping": {
