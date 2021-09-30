@@ -24,6 +24,13 @@ suggestions:
 # Configure the display and description of parameters
 #
 parameters :
+    parameter_1:
+        ui-name:
+            The first one
+        short-hint:
+            The first one
+        long-hint:
+            Who knows
     pacbio-raw :
         ui-name : |
             Raw PacBio reads
