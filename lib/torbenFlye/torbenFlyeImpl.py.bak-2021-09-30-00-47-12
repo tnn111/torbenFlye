@@ -24,7 +24,7 @@ class torbenFlye:
     ######################################### noqa
     VERSION = "0.0.1"
     GIT_URL = "https://github.com/tnn111/torbenFlye.git"
-    GIT_COMMIT_HASH = "aa47968b7ab9b393c6bbe132a2441bbdc725adf6"
+    GIT_COMMIT_HASH = "831c503cd7d1e47a77aee1650b9a046e5229349d"
 
     #BEGIN_CLASS_HEADER
     #END_CLASS_HEADER

@@ -66,6 +66,13 @@ parameters :
             Corrected Nanopore reads
         long-hint:
             Corrected Nanopore reads input. Correction is done using other methods
+    nano-hq:
+        ui-name:
+            High quality Nanopore reads
+        short-hint:
+            High quality Nanopore reads
+        long-hint:
+            High quality Nanopore reads produced by recent basecallers such as Guppy5+ and/or the Q20+ protocol
         
 
 description : |
